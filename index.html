@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="projects.html">Projects</a>
+<!--                    <a class="nav-item nav-link" href="projects.html">Projects</a>-->
                 </div>
             </div>
         </nav>
@@ -38,25 +38,25 @@
 			<center><img src="pic.jpg" style="width:90%;" alt="Avatar"></center><br><br>
                     <h5>Mark John Mileyev</h5>
                     <img src="briefcase.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar">
-                    <h7> UCSC Computer Science, Senior</h7><br>
+                    <h7> Software Engineer, Sezzle</h7><br>
 
                     <img src="home.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar">
-                    <h7> Santa Cruz, CA</h7><br>
+                    <h7> Cupertino, CA</h7><br>
 
                     <img src="envelope-closed.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar">
                     <h7> mmileyev@gmail.com</h7><br>
 
                     <img src="phone.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar">
-                    <h7> (559)-940-0472</h7><br><br><br>
+                    <h7> +1 (559)-940-0472</h7><br><br><br>
 
                     <h5><img src="target.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar"> Skills</h5>
 
 
-                    <h7>Java, Python3</h7><br>
+                    <h7>Go, Python, SQL</h7><br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 95%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
-                    <h7>Data Structures, OOP, Unix</h7><br>
+                    <h7>Data Structures, Scripting, Unix</h7><br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                     </div>
@@ -68,7 +68,7 @@
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
-                    <h7>Jupyter, Keras, SQL</h7><br>
+                    <h7>Jupyter, Keras, ML</h7><br>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">75%</div>
                     </div>
@@ -89,6 +89,10 @@
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                    <h7>Spanish</h7><br>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                     <br><br>
 
                     <center>
@@ -106,29 +110,54 @@
                     <h2><img src="monitor.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar"> Experience</h2>
                     <div class="card" style="">
                         <div class="card-body">
-                            <h5 class="card-title">Undergraduate Research Assistant, UCSC</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Jun 2019 - <span class="badge badge-secondary">Current</span></h6>
+                            <h5 class="card-title">Software Engineer - Payments, Sezzle</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Jul 2020 - <span class="badge badge-secondary">Current</span></h6>
                             <p class="card-text">
-                            Currently processing Nasdaq ITCH 5.0 binary data files for UCSC Economics Department. Duties include
-                            converting and parsing binary data, managing PostgreSQL database to store it, and building historical limit
-                            orderbooks using order messages coming in through the ITCH protocol. Current task is building ML model
-                            using sequential orderbook data, and creating an interface to download datasets on Django site. Strategies
-                            will be similar to ones I have used and wrote about using Bitcoin data <a href="https://medium.com/@mmileyev/predicting-btc-prices-with-keras-and-bitcoinity-8f42eba51c19">here</a>
+                                Engineered high throughput batch jobs to collect millions of dollars in scheduled and delinquent payments on a daily basis.
+                                Integrated internal microservices with various 3rd party APIs (Stripe, Marqeta, Plaid, Cybersource, GIACT, Fiserv) while maintaining defined PCI scope.
+                                Created grafana/prometheus alerts on all critical payment processes and participated in team on-call rotation.
+                                Migrated all deployment pipelines from Jenkins to Gitlab CI and created custom pipelines when necessary
                             </p>
 
                         </div>
                     </div>
                     <div class="card" style="">
                         <div class="card-body">
-                            <h5 class="card-title">Disclose</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Sep 2018 - Jan 2019</h6>
+                            <h5 class="card-title">Undergraduate Research Assistant, UCSC</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Jun 2019 - March 2020</h6>
                             <p class="card-text">
-                            Disclose is an Android mental health tracking application I created at the start of my junior year at UCSC. The app utilized IBM Watson's tone analyzer API to surf through the user's Android messages and chart a timeline of happiness levels. I picked a team of three other students and managed their roles in the creation of this application throughout the quarter and made sure all progress deadlines were met. This application was created as a quarter long project for a mobile development class, our final report can be seen <a href="Disclose.pdf">here</a>
+                                Designed continuous data ingestion pipeline to format and store terabytes of NASDAQ stock data in PostgreSQL database.
+                                Aggregated historical limit orderbooks of individual stocks using data pipeline.
+                                Increased performance by 10x through optimized data processing.
+                                Constructed various machine learning models to forecast hourly price movements for any given stock with strategies similar to
+                                ones I have used and wrote about using Bitcoin data <a href="https://medium.com/@mmileyev/predicting-btc-prices-with-keras-and-bitcoinity-8f42eba51c19">here</a>
                             </p>
 
                         </div>
                     </div>
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title">MacsMatter</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Sep 2018 - Jan 2019</h6>
+                            <p class="card-text">
+                                Developed Django website with optimized database schema and application structure for reliability, availability, and serviceability.
+                                Implemented endpoints for thousands of users to decode serials of their Apple products while rate-limiting repeat users.
+                                Created dynamic pricing model and automated email server for website owners to give price estimates on used devices.
+                                Deployed with Apache2 on DigitalOcean Linux server
+                            </p>
 
+                        </div>
+                    </div>
+                    <div class="card" style="">
+                        <div class="card-body">
+                            <h5 class="card-title">Winner, Cal Hacks 4.0</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Oct 2017</h6>
+                            <p class="card-text">
+                                While attending UC Berkeley's Cal Hacks 4.0 hackathon, I won best use of Cisco Meraki's API/ Wireless Access Points. My Project made use of Cisco Meraki routers and building evacuation maps, data was retrieved with python requests. Building staff could report an emergency, then Meraki routers + my algorithm would send a unique text notification based on location in the building. Text notifications would then instruct the device owner on which emergency exit they should take based on optimization model specific to the building.
+                            </p>
+
+                        </div>
+                    </div>
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title">Find My Vote</h5>
@@ -139,45 +168,14 @@
 
                         </div>
                     </div>
-
-                    <div class="card" style="">
-                        <div class="card-body">
-                            <h5 class="card-title">Topped 3</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Dec 2017 - Aug 2018</h6>
-                            <p class="card-text">
-                            I was the sole developer of a content website that primarily used PHP, and mySQL to create dynamic content. I worked closely with the client to create a frontpage design and interface that was intuitive and lightweight. I also created a CMS for admins to upload new content into an SQL database which then got displayed on the website at a preset future time.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="card" style="">
-                        <div class="card-body">
-                            <h5 class="card-title">Winner, Cal Hacks, Cisco Meraki</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Oct 2017</h6>
-                            <p class="card-text">
-                            While attending Cal Hacks 2017 hackathon, I won best use of Cisco Meraki's API/ Wireless Access Points. My Project made use of Cisco Meraki routers and building evacuation maps, data was retrieved with python requests. Building staff could report an emergency, then Meraki routers + my algorithm would send a unique text notification based on location in the building. Text notifications would then instruct the device owner on which emergency exit they should take based on optimization model specific to the building.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="card" style="">
-                        <div class="card-body">
-                            <h5 class="card-title">FG Repair, Clovis CA</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Mar 2013 - Dec 2016</h6>
-                            <p class="card-text">
-                            My duties at FG Repair included diagnostics, formatting HDD's/ SSD's, replacing CPU's, GPU's, motherboards, and repair of water damage with a high rate of success. I learned to use a variety of both hardware and software repair tools. I have also have experience installing operating systems on thousands of machines (Mac OS, Windows XP->10, and Linux).
-                            </p>
-
-                        </div>
-                    </div>
                     <br>
                     <h2><img src="beaker.svg" style="height:1em;width:1em;bottom:.125em;position: relative;" alt="Avatar"> Education</h2>
                     <div class="card" style="">
                         <div class="card-body">
                             <h5 class="card-title">University of California, Santa Cruz</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Sep 2016 - <span class="badge badge-secondary">Current</span></h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Sep 2016 - 2020</h6>
                             <p class="card-text">
-                            Currently working towards a Computer Science B.S. degree at UCSC. Relevant courses taken so far include
+                            Relevant courses include
   Data Structures / ADTs, Algorithms, Artificial Intelligence, Web Apps, Mobile Apps, Networking, Discrete Math,
  Linear Algebra, Scientific Computing, and Assembly Language.                            </p>
 
@@ -188,7 +186,7 @@
                             <h5 class="card-title">Buchanan High School</h5>
                             <h6 class="card-subtitle mb-2 text-muted">2012 - 2016</h6>
                             <p class="card-text">
-                            I took six college preparation courses and two computer science courses at my local community college while enrolled at Buchanan High School. I also won the national FIRST Robotics Competition with the robotics team where I was a member of the game strategy subdivision.
+                            Took six college preparation courses and two computer science courses at my local community college while enrolled at Buchanan High School. My extracurriculars included robotics, where I won the national FIRST Robotics Competition as a member of the game strategy subdivision.
                             </p>
 
                         </div>
